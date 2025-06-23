@@ -1,0 +1,55 @@
+body {
+  background-color: lightgray;
+}
+
+form {
+  margin: 10px;
+  writing-mode: horizontal-tb;
+  position: relative;
+  left: 1%;
+
+  right: 50%;
+}
+input {
+  justify-content: space-between;
+  font-size: 15px;
+  text-align: center;
+  margin: 10px;
+  width: 200px;
+}
+.homeh1 {
+  text-align: center;
+}
+.home {
+  border: 2px solid black;
+  width: 500px;
+  position: relative;
+  left: 33%;
+  margin-top: 100px;
+}
+.check {
+  display: block;
+}
+
+button {
+  width: 100px;
+  height: 20px;
+  background-color: lightgrey;
+  color: black;
+  margin: 10px;
+}
+
+.box,
+.pic {
+  align-items: center;
+  margin: 20px;
+  border: 2px solid black;
+  background-color: antiquewhite;
+}
+.back {
+  background-color: orange;
+}
+nav {
+  text-align: center;
+  margin: 10px;
+}

@@ -1,0 +1,27 @@
+body {
+  background-color: antiquewhite;
+}
+.header {
+  text-align: center;
+  margin: 20px;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+button {
+  font-size: 20px;
+  margin: 20px;
+  border-radius: 7px;
+}
+.btnspace {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.country {
+  text-align: center;
+  gap: 10px;
+}
+.box {
+  border: 5px solid lightcoral;
+  margin: 5px;
+}
