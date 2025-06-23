@@ -1,0 +1,121 @@
+html{
+    font-size: 20px;
+}
+header {
+    text-align: center;
+    background-color: antiquewhite;
+    color: red;
+    border: 2px solid black;
+}
+.structural{
+    margin: 1rem;
+}
+body{
+    background-color: lightcyan;
+    display: flex;
+    flex-direction: column;
+    width: 80% ;
+    height: auto;
+    border: 2px solid black;
+    padding: 5px;
+    margin: auto;
+}
+header h1 {
+    font-family: cursive;
+    font-size: 2.5rem;
+}
+nav , footer{
+    background-color: bisque;
+    text-align: center;
+    padding: 1em ; 
+    border:  0.5em solid black;
+    margin-top: 0.5em;
+}
+nav a{
+    text-align: center;
+    padding: 1rem;
+    color: brown;
+    margin: 2em;
+    border: solid black;
+    border-radius: 2em;
+    font-weight: 800;
+    background-color: azure;
+    text-decoration: none;
+}
+
+
+main img {
+    width: 100%;
+    height: auto;
+}
+footer{
+    font-weight: 800;
+    color: brown;
+    border: 2px solid black;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    order: 2;
+    padding: 1rem;
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+main{
+    order: 1;
+    display: flex;
+    width: 70%;
+    background-color: aqua;
+    border: 2px solid black;
+}
+#gallery{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    gap: 5px;
+}
+nav {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    padding: 30px;
+    background: brown;
+    font-weight: 800;
+}
+nav ul{
+    list-style: none;
+
+}
+nav>ul>li { 
+    display: inline-block;
+    width: 20%;
+}
+nav ul a {
+    background-color: cornsilk  ;
+    border: 2px solid black;
+    color: black;
+    display:inline-flex ;
+    text-decoration: none;
+    font-weight: 800;
+}
+nav ul a:hover{
+    background-color: indigo   ;
+    border: 2px solid cornsilk ;
+    color: cornsilk ;
+}
+.section{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between ;
+	align-items: flex-start;
+    margin: 1rem 0 ;
+    background-color: lightsalmon;
+}
+
+@media screen and (max-width: 768px){
+.section{
+        flex-direction: column;
+    }
+}   

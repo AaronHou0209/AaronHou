@@ -1,0 +1,45 @@
+html{
+    font-size: 19px;
+}
+body{
+    flex-direction: column;
+    display: flex;
+    width: 80%;
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 10px; 
+}
+header{
+    background-color: bisque;
+    text-align: center;
+    padding: 5px 0px;
+}
+nav{
+    background-color: lightcyan;
+    padding: 8px 0px;
+    text-align: center;
+}
+nav a { 
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 0px  30px;
+    font-weight: 900;
+}
+main{
+    width: 80%;
+    background-color: lightpink;
+}
+aside{
+    width: 20%;
+    background-color: lightgray;
+}
+footer{
+    background-color: lightseagreen;
+    text-align: center;
+    font-size: 1.4em;
+}
+section{ 
+    display: flex;
+
+}

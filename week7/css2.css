@@ -1,0 +1,37 @@
+header{
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+main form {
+    border: 2px solid black;
+    padding: 20px; 
+    width: 30%;
+    margin: auto;
+    border-radius: 20px;
+}
+form div {
+    margin: 10px;
+}
+[type=submit] {
+    background-color: bisque;
+    width: 90%;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+[type=submit]:hover{
+    background-color: rgb(157, 157, 211);
+}
+[type=reset]:hover{
+    background-color: rgb(157, 157, 211);
+}
+[type=reset] {
+    background-color: bisque;
+    width: 90%;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+form label {
+    display: inline-block;
+    width: 100px;
+}

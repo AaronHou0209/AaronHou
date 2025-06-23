@@ -1,0 +1,17 @@
+body{
+    background-color: linear-gradient(30deg, red, blue);
+}
+h1{
+    width: 700px;
+    background-color: bisque;
+    text-align: center;
+    margin: auto;
+    box-shadow: 7px 7px cadetblue;
+    padding: 40px;
+    box-sizing: border-box;
+}
+p{
+    width: 200px ;
+    height: 200px;
+    overflow: auto;
+}

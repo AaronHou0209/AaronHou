@@ -1,0 +1,144 @@
+/*CHENGYU HOU 9004533*/
+
+body {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0.25rem auto;
+  box-shadow: 0 0 0.5rem black;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+header,
+footer {
+  background-color: #8b140b;
+  /* Add gradient background  */
+  background: linear-gradient(#ff0000, #8b140b, #ff0000);
+  padding: 0.5rem 0;
+  text-align: center;
+  color: white; 
+}
+
+header h1 {
+  font-size: 2rem;
+  font-variant: small-caps;
+}
+nav {
+  background-color: #ffd7d4;
+   text-align: center;
+}
+
+
+nav a {
+  padding: 10px  5%;
+  text-decoration: none;
+  color: #8b140b;
+  display: inline-block;
+  font-variant: small-caps;
+  font-weight: 900;
+  font-size: larger;
+}
+nav{
+    
+}
+/* Add link Css  */
+
+main h2 {
+  color: #8b140b;
+  font-size: 1.5rem;
+  text-align: center;
+  font-variant: small-caps;
+}
+main p {
+  margin: 10px auto;
+}
+
+aside h2 {
+  font-size: 1.25rem;
+  text-align: center;
+  font-variant: small-caps;
+}
+
+.maingrid > header {
+  grid-area: hd;
+}
+.maingrid > nav {
+  grid-area: nv;
+}
+.maingrid > main {
+  grid-area: mn;
+  
+}
+.maingrid > aside {
+  grid-area: side;
+}
+.maingrid > footer {
+  grid-area: ft;
+}
+
+
+.maingrid {
+
+  display: grid;
+  grid-template-areas:
+  "hd hd hd hd "
+  "nv nv nv nv "
+  "mn mn mn side"
+  "ft ft ft  ft "  ;
+}
+
+.maingrid aside {
+    /*change to background image and text color */
+  padding: 0 1rem 1rem 1rem;
+  background-image:url(../images/aside.jpg);
+  background-size: cover;
+  
+}
+
+.maingrid main {
+  padding: 0px;
+}
+
+/* Add CSS here for the hero section */
+main hero{
+  font-size: 2em;
+  text-align: center;
+  
+}
+#f1{
+  position: relative;
+  top: -200px;
+  color: white;
+  z-index: 999;
+}
+main img{
+  width: 100%;
+}
+
+/* Add Gallery Css here */
+.gallery{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 10px;
+   
+}
+#i1,#i3,#i6{
+  height: 270px;
+}
+#i2{
+  height: 270px;
+}
+
+@media (max-width: 640px) {
+  /* Add responsive CSS here */
+  body{
+    float:left;
+  }
+  .gallery{
+    display: grid;
+    grid-template-rows: 100%
+    ;
+  }
+}
+

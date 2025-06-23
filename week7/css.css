@@ -1,0 +1,50 @@
+body{
+    background-color: aquamarine;
+}
+header{
+    background-color: antiquewhite;
+    text-align: center;
+}
+header h1 {
+    padding: 4px;
+}
+nav{
+    text-align: center;
+    background-color: lightpink;
+}
+nav ul{
+    list-style: none;
+    padding: 0px;
+}
+nav ul li a {
+    display:block;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 800;
+    padding: 10px;
+}
+nav>ul>li { 
+    display: inline-block;
+}
+nav ul li ul {
+    display: none;
+    background-color: rgb(29, 151, 64);
+    position: absolute;
+    z-index: 999;
+}
+
+nav ul li {
+    width: 180px;
+    position: relative;
+  
+}
+nav ul li:hover{
+    background-color: rgb(252, 252, 252);
+}
+
+main{
+    background-color: rgb(175, 223, 16);
+}
+nav ul li ul li a {
+     color: black;
+}
